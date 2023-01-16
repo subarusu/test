@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = SampleApp
+title = Black&White Cat
 
 # (str) Package name
-package.name = sampleapk
+package.name = neko
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.novfensec
+package.domain = org.cat
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.1.0,kivymd==0.104.2,pillow==8.3.1
+requirements = python3,kivy==2.1.0,kivymd==0.104.2,pillow==8.3.1,cryptography==3.4.8
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -47,7 +47,7 @@ requirements = python3,kivy==2.1.0,kivymd==0.104.2,pillow==8.3.1
 presplash.filename = %(source.dir)s/images/presplash.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/images/favicon.png
+icon.filename = %(source.dir)s/images/icon.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
